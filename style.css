@@ -168,7 +168,6 @@ button:hover {
 
     #month {
         font-size: 3.6em;   /* Multiply by 1.3 */
-        color: orange;
     }
 
     .fa-arrow-left, .fa-arrow-right {
@@ -183,44 +182,40 @@ button:hover {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     #rectangularDatePicker {
-        width: 25em;
-        height: 2.5em;
-        border: 2px solid black;
-        margin-bottom: .35em;
+        width: 54em;                    /* Multiply by 1.2 */
+        margin-bottom: .78em;           /* Multiply by 1.2 */
     }
 
     #squareCalendar {
-        width: 25em;
-        height: 25em;
-        border: 2px solid black;
+        width: 54em;
     }
 
     #date {
-        margin-left: 1.5em;
-        margin-top: .25em;
-        font-size: 1.5em;
+        /* margin-left: 1.5em; */
+        /* margin-top: .25em; */
+        /* font-size: 1.5em; */
     }
 
     button {
-        padding-left: 1rem;
-        padding-right: 1rem
+        /* padding-left: 1rem; */
+        /* padding-right: 1rem */
     }
 
     #calendar {
-        font-size: 1.5em;
+        /* font-size: 1.5em; */
     } 
 
     #month {
-        font-size: 2em;
+        /* font-size: 2em; */
         color: green;
     }
 
     .fa-arrow-left, .fa-arrow-right {
-        font-size: 2em;
+        /* font-size: 2em; */
     }
 
     #daysOfTheWeek {
-        margin-top: 1.25rem;
+        /* margin-top: 1.25rem; */
     }
 }
 
