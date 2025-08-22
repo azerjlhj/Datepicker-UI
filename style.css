@@ -91,27 +91,27 @@ button:hover {
 @media (min-width: 576px) {
 
     #rectangularDatePicker {
-        width: 25em; 
-        height: 2.5em;
+        width: 35em; /* Multiply by 1.4 */
+        height: 3.5em; /* Multiply by 1.4 */
         border: 2px solid black;
-        margin-bottom: .35em;
+        margin-bottom: .5em; /* Multiply by 1.4 */
     }
 
     #squareCalendar {
-        width: 25em;
-        height: 25em;
+        width: 35em; /* Multiply by 1.4 */
+        height: 35em; /* Multiply by 1.4 */
         border: 2px solid black;
     }
 
     #date {
-        margin-left: 1.5em;
+        margin-left: 2em; /* Multiply by 1.4 */
         margin-top: .25em;
-        font-size: 1.5em;
+        font-size: 2em; /* Multiply by 1.4 */
     }
 
     button {
-        padding-left: 1rem;
-        padding-right: 1rem
+        padding-left: 1.4rem; /* Multiply by 1.4 */
+        padding-right: 1.4rem; /* Multiply by 1.4 */
     }
 
     #month {
