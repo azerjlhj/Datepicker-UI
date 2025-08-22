@@ -185,13 +185,13 @@ button:hover {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     #rectangularDatePicker, #squareCalendar {
-        width: 54em;                    /* Multiply by 1.2 */
+        width: 60em;                    
     }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     #rectangularDatePicker, #squareCalendar {
-        width: 64em;                /* Multiply by 1.2 */
+        width: 70em;               
     }   
 }
