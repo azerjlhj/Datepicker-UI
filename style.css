@@ -14,6 +14,12 @@ body {
     justify-content:space-between;
 }
 
+#date {
+    margin-left: 1.5em;
+    margin-top: .25em;
+    font-size: 1.5em;
+}
+
 button {
     background-color: transparent;
     border: none;
