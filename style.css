@@ -91,7 +91,7 @@ button:hover {
 @media (min-width: 576px) {
 
     #rectangularDatePicker {
-        width: 25em;
+        width: 25em; 
         height: 2.5em;
         border: 2px solid black;
         margin-bottom: .35em;
@@ -116,6 +116,7 @@ button:hover {
 
     #month {
         font-size: 2em;
+        color: red;
     }
 
     .fa-arrow-left, .fa-arrow-right {
@@ -171,6 +172,7 @@ button:hover {
 
     #month {
         font-size: 2em;
+        color: orange;
     }
 
     .fa-arrow-left, .fa-arrow-right {
@@ -224,6 +226,7 @@ button:hover {
 
     #month {
         font-size: 2em;
+        color: green;
     }
 
     .fa-arrow-left, .fa-arrow-right {
@@ -277,6 +280,7 @@ button:hover {
 
     #month {
         font-size: 2em;
+        color: blue;
     }
 
     .fa-arrow-left, .fa-arrow-right {
