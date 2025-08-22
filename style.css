@@ -86,3 +86,218 @@ button:hover {
     background-color: #fff;
     text-align: center;
 }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+    #rectangularDatePicker {
+        width: 25em;
+        height: 2.5em;
+        border: 2px solid black;
+        margin-bottom: .35em;
+    }
+
+    #squareCalendar {
+        width: 25em;
+        height: 25em;
+        border: 2px solid black;
+    }
+
+    #date {
+        margin-left: 1.5em;
+        margin-top: .25em;
+        font-size: 1.5em;
+    }
+
+    button {
+        padding-left: 1rem;
+        padding-right: 1rem
+    }
+
+    #month {
+        font-size: 2em;
+    }
+
+    .fa-arrow-left, .fa-arrow-right {
+        font-size: 2em;
+    }
+
+    #left {
+        padding-right: 2rem;
+    }
+
+    #right {
+        padding-left: 2rem;
+    }
+
+    #daysOfTheWeek {
+        margin-top: 1.25rem;
+    }
+
+    #daysGrid {
+        border-top: 2px solid black;
+        gap: 1.5px;
+        background-color: black;
+    }
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #rectangularDatePicker {
+        width: 25em;
+        height: 2.5em;
+        border: 2px solid black;
+        margin-bottom: .35em;
+    }
+
+    #squareCalendar {
+        width: 25em;
+        height: 25em;
+        border: 2px solid black;
+    }
+
+    #date {
+        margin-left: 1.5em;
+        margin-top: .25em;
+        font-size: 1.5em;
+    }
+
+    button {
+        padding-left: 1rem;
+        padding-right: 1rem
+    }
+
+    #month {
+        font-size: 2em;
+    }
+
+    .fa-arrow-left, .fa-arrow-right {
+        font-size: 2em;
+    }
+
+    #left {
+        padding-right: 2rem;
+    }
+
+    #right {
+        padding-left: 2rem;
+    }
+
+    #daysOfTheWeek {
+        margin-top: 1.25rem;
+    }
+
+    #daysGrid {
+        border-top: 2px solid black;
+        gap: 1.5px;
+        background-color: black;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #rectangularDatePicker {
+        width: 25em;
+        height: 2.5em;
+        border: 2px solid black;
+        margin-bottom: .35em;
+    }
+
+    #squareCalendar {
+        width: 25em;
+        height: 25em;
+        border: 2px solid black;
+    }
+
+    #date {
+        margin-left: 1.5em;
+        margin-top: .25em;
+        font-size: 1.5em;
+    }
+
+    button {
+        padding-left: 1rem;
+        padding-right: 1rem
+    }
+
+    #month {
+        font-size: 2em;
+    }
+
+    .fa-arrow-left, .fa-arrow-right {
+        font-size: 2em;
+    }
+
+    #left {
+        padding-right: 2rem;
+    }
+
+    #right {
+        padding-left: 2rem;
+    }
+
+    #daysOfTheWeek {
+        margin-top: 1.25rem;
+    }
+
+    #daysGrid {
+        border-top: 2px solid black;
+        gap: 1.5px;
+        background-color: black;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #rectangularDatePicker {
+        width: 25em;
+        height: 2.5em;
+        border: 2px solid black;
+        margin-bottom: .35em;
+    }
+
+    #squareCalendar {
+        width: 25em;
+        height: 25em;
+        border: 2px solid black;
+    }
+
+    #date {
+        margin-left: 1.5em;
+        margin-top: .25em;
+        font-size: 1.5em;
+    }
+
+    button {
+        padding-left: 1rem;
+        padding-right: 1rem
+    }
+
+    #month {
+        font-size: 2em;
+    }
+
+    .fa-arrow-left, .fa-arrow-right {
+        font-size: 2em;
+    }
+
+    #left {
+        padding-right: 2rem;
+    }
+
+    #right {
+        padding-left: 2rem;
+    }
+
+    #daysOfTheWeek {
+        margin-top: 1.25rem;
+    }
+
+    #daysGrid {
+        border-top: 2px solid black;
+        gap: 1.5px;
+        background-color: black;
+    }
+}
