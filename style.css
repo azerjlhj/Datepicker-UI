@@ -41,7 +41,7 @@ button:hover {
     flex-direction: column;
 }
 
-#monthSection {
+#monthBox {
     display: flex;
     justify-content: space-between;
 }
@@ -60,4 +60,11 @@ button:hover {
 
 #right {
     padding-left: 2rem;
+}
+
+#daysGrid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    /* grid-template-rows: min-content 1fr min-content; */
+
 }
