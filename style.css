@@ -82,7 +82,7 @@ button:hover {
     height: 100%;
     grid-template-columns: repeat(7, 1fr);
     justify-items: stretch;
-    gap: 1.5px;
+    gap: 2px;
     background-color: black;
 }
 
@@ -119,7 +119,7 @@ button:hover {
     }
 
     #calendar {
-        font-size: 1.5em;
+        font-size: 2em; /* Multiply by 1.4 */
     } 
 
     #month {
@@ -130,23 +130,15 @@ button:hover {
         font-size: 2.8em; /* Multiply by 1.4 */
     }
 
-    #left {
-        padding-right: 2rem;
-    }
-
-    #right {
-        padding-left: 2rem;
-    }
-
     #daysOfTheWeek {
-        margin-top: 1.25rem;
+        margin-top: 1.75rem; /* Multiply by 1.4 */
     }
 
-    #daysGrid {
+    /* #daysGrid {
         border-top: 2px solid black;
-        gap: 1.5px;
+        gap: 2px;
         background-color: black;
-    }
+    } */
 
 
 }
@@ -190,22 +182,8 @@ button:hover {
         font-size: 2em;
     }
 
-    #left {
-        padding-right: 2rem;
-    }
-
-    #right {
-        padding-left: 2rem;
-    }
-
     #daysOfTheWeek {
         margin-top: 1.25rem;
-    }
-
-    #daysGrid {
-        border-top: 2px solid black;
-        gap: 1.5px;
-        background-color: black;
     }
 }
 
@@ -248,22 +226,8 @@ button:hover {
         font-size: 2em;
     }
 
-    #left {
-        padding-right: 2rem;
-    }
-
-    #right {
-        padding-left: 2rem;
-    }
-
     #daysOfTheWeek {
         margin-top: 1.25rem;
-    }
-
-    #daysGrid {
-        border-top: 2px solid black;
-        gap: 1.5px;
-        background-color: black;
     }
 }
 
@@ -292,7 +256,7 @@ button:hover {
         padding-left: 1rem;
         padding-right: 1rem
     }
-    
+
     #calendar {
         font-size: 1.5em;
     } 
@@ -306,21 +270,8 @@ button:hover {
         font-size: 2em;
     }
 
-    #left {
-        padding-right: 2rem;
-    }
-
-    #right {
-        padding-left: 2rem;
-    }
-
     #daysOfTheWeek {
         margin-top: 1.25rem;
     }
 
-    #daysGrid {
-        border-top: 2px solid black;
-        gap: 1.5px;
-        background-color: black;
-    }
 }
