@@ -89,6 +89,7 @@ button:hover {
 .day {
     background-color: #fff;
     text-align: center;
+    font-size: 2em;
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -131,6 +132,10 @@ button:hover {
     #daysOfTheWeek {
         margin-top: 1.75rem; /* Multiply by 1.4 */
     }
+
+    .day {
+        font-size: 2.8em;   /* Multiply by 1.4 */
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -170,6 +175,10 @@ button:hover {
 
     #daysOfTheWeek {
         margin-top: 2.275rem;   /* Multiply by 1.3 */
+    }
+
+    .day {
+        font-size: 3.64em;   /* Multiply by 1.3 */
     }
 }
 
