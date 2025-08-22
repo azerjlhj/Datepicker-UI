@@ -27,13 +27,17 @@ button {
     background-color: transparent;
     border: none;
     padding-left: 1rem;
-    padding-right: 1rem
+    padding-right: 1rem;
 }
 
 button:hover {
     cursor: pointer;
     background-color: #ddd;
 }
+
+#calendar {
+    font-size: 1.5em;
+} 
 
 
 #squareCalendar {
@@ -114,13 +118,16 @@ button:hover {
         padding-right: 1.4rem; /* Multiply by 1.4 */
     }
 
+    #calendar {
+        font-size: 1.5em;
+    } 
+
     #month {
-        font-size: 2em;
-        color: red;
+        font-size: 2.8em; /* Multiply by 1.4 */
     }
 
     .fa-arrow-left, .fa-arrow-right {
-        font-size: 2em;
+        font-size: 2.8em; /* Multiply by 1.4 */
     }
 
     #left {
@@ -169,6 +176,10 @@ button:hover {
         padding-left: 1rem;
         padding-right: 1rem
     }
+
+    #calendar {
+        font-size: 1.5em;
+    } 
 
     #month {
         font-size: 2em;
@@ -224,6 +235,10 @@ button:hover {
         padding-right: 1rem
     }
 
+    #calendar {
+        font-size: 1.5em;
+    } 
+
     #month {
         font-size: 2em;
         color: green;
@@ -277,6 +292,10 @@ button:hover {
         padding-left: 1rem;
         padding-right: 1rem
     }
+    
+    #calendar {
+        font-size: 1.5em;
+    } 
 
     #month {
         font-size: 2em;
