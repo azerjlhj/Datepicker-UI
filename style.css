@@ -131,12 +131,6 @@ button:hover {
     #daysOfTheWeek {
         margin-top: 1.75rem; /* Multiply by 1.4 */
     }
-
-    /* #daysGrid {
-        border-top: 2px solid black;
-        gap: 2px;
-        background-color: black;
-    } */
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -181,77 +175,14 @@ button:hover {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    #rectangularDatePicker {
+    #rectangularDatePicker, #squareCalendar {
         width: 54em;                    /* Multiply by 1.2 */
-    }
-
-    #squareCalendar {
-        width: 54em;                    /* Multiply by 1.2 */
-    }
-
-    #date {
-        /* margin-left: 1.5em; */
-        /* font-size: 1.5em; */
-    }
-
-    button {
-        /* padding-left: 1rem; */
-        /* padding-right: 1rem */
-    }
-
-    #calendar {
-        /* font-size: 1.5em; */
-    } 
-
-    #month {
-        /* font-size: 2em; */
-        color: green;
-    }
-
-    .fa-arrow-left, .fa-arrow-right {
-        /* font-size: 2em; */
-    }
-
-    #daysOfTheWeek {
-        /* margin-top: 1.25rem; */
     }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    #rectangularDatePicker {
-        width: 64em;
-    }
-
-    #squareCalendar {
-        width: 64em;
-    }
-
-    #date {
-        /* margin-left: 1.5em;
-        font-size: 1.5em; */
-    }
-
-    button {
-        /* padding-left: 1rem;
-        padding-right: 1rem */
-    }
-
-    #calendar {
-        /* font-size: 1.5em; */
-    } 
-
-    #month {
-        /* font-size: 2em; */
-        color: blue;
-    }
-
-    .fa-arrow-left, .fa-arrow-right {
-        /* font-size: 2em; */
-    }
-
-    #daysOfTheWeek {
-        /* margin-top: 1.25rem; */
-    }
-
+    #rectangularDatePicker, #squareCalendar {
+        width: 64em;                /* Multiply by 1.2 */
+    }   
 }
