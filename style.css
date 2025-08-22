@@ -65,6 +65,13 @@ button:hover {
 #daysGrid {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    /* grid-template-rows: min-content 1fr min-content; */
+    /* grid-template-rows: max-content 6fr max-content; */
+    justify-items: stretch;
+    gap: 1px;
+    background-color: black;
+}
 
+.day {
+    background-color: #fff;
+    text-align: center;
 }
