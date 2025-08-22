@@ -41,7 +41,23 @@ button:hover {
     flex-direction: column;
 }
 
-#month {
+#monthSection {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+#month {
+    font-size: 2em;
+}
+
+.fa-arrow-left, .fa-arrow-right {
+    font-size: 2em;
+}
+
+#left {
+    padding-right: 2rem;
+}
+
+#right {
+    padding-left: 2rem;
 }
