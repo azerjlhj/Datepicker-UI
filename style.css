@@ -104,12 +104,10 @@ button:hover {
     #squareCalendar {
         width: 35em; /* Multiply by 1.4 */
         height: 35em; /* Multiply by 1.4 */
-        border: 2px solid black;
     }
 
     #date {
         margin-left: 2em; /* Multiply by 1.4 */
-        margin-top: .25em;
         font-size: 2em; /* Multiply by 1.4 */
     }
 
@@ -139,51 +137,46 @@ button:hover {
         gap: 2px;
         background-color: black;
     } */
-
-
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     #rectangularDatePicker {
-        width: 25em;
-        height: 2.5em;
-        border: 2px solid black;
-        margin-bottom: .35em;
+        width: 45em;    /* Multiply by 1.3 */
+        height: 4.5em;  /* Multiply by 1.3 */
+        margin-bottom: .65em; /* Multiply by 1.3 */
     }
 
     #squareCalendar {
-        width: 25em;
-        height: 25em;
-        border: 2px solid black;
+        width: 45em;    /* Multiply by 1.3 */
+        height: 45em;   /* Multiply by 1.3 */
     }
 
     #date {
-        margin-left: 1.5em;
-        margin-top: .25em;
-        font-size: 1.5em;
+        margin-left: 2.6em;     /* Multiply by 1.3 */
+        font-size: 2.6em;       /* Multiply by 1.3 */
     }
 
     button {
-        padding-left: 1rem;
-        padding-right: 1rem
+        padding-left: 1.8rem;       /* Multiply by 1.3 */
+        padding-right: 1.8rem       /* Multiply by 1.3 */
     }
 
     #calendar {
-        font-size: 1.5em;
+        font-size: 2.5em;   /* Multiply by 1.3 */
     } 
 
     #month {
-        font-size: 2em;
+        font-size: 3.6em;   /* Multiply by 1.3 */
         color: orange;
     }
 
     .fa-arrow-left, .fa-arrow-right {
-        font-size: 2em;
+        font-size: 3.6em;   /* Multiply by 1.3 */
     }
 
     #daysOfTheWeek {
-        margin-top: 1.25rem;
+        margin-top: 2.275rem;   /* Multiply by 1.3 */
     }
 }
 
